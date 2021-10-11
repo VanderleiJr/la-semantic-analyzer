@@ -1,6 +1,6 @@
 # la-semantic-analyzer
-Analizador Semântico da linguagem LA feito em Java com ANTLR4 (4.9.2) para a disciplina de Construção de Compiladores - UFSCar - ENPE 2021/2
-Semantic LA language Analyzer made in Java with ANTLR4 (4.9.2) for Compiler Construction subject - UFSCar - ENPE 2020/2
+Analizador Semântico e Gerador de Código para C da linguagem LA feito em Java com ANTLR4 (4.9.2) para a disciplina de Construção de Compiladores - UFSCar - ENPE 2021/2
+Semantic LA language Analyzer and Code Generator for C made in Java with ANTLR4 (4.9.2) for Compiler Construction subject - UFSCar - ENPE 2020/2
 
 *Grupo composto por Vanderlei de Brito Junior, 636932*
 

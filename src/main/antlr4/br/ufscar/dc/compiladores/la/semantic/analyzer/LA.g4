@@ -53,8 +53,8 @@ exp_relacional                  :	arit1=exp_aritmetica (op_relacional arit2=exp_
 op_relacional                   :	'='| '<>' | '>=' | '<=' | '>' | '<';
 expressao			:	termo_logico (op_logico_1 termo_logico)*;
 termo_logico                    :	fator_logico (op_logico_2 fator_logico)*;
-fator_logico                    :	'nao'? parcela_logica;
-parcela_logica                  :	('verdadeiro' | 'falso') | exp_relacional;
+fator_logico                    :	not='nao'? parcela_logica;
+parcela_logica                  :	(verdadeiro='verdadeiro' | falso='falso') | exp_relacional;
 op_logico_1                     : 	'ou';
 op_logico_2                     : 	'e';
 

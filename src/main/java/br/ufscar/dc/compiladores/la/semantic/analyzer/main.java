@@ -60,9 +60,17 @@ public class main {
         LAParser.ProgramaContext arvore = parser.programa();
         LASemantico semantic = new LASemantico();
         semantic.visitPrograma(arvore);
-
-        LASemanticoUtils.errosSemanticos.forEach((s) -> pw.println(s));
-        pw.println("Fim da compilacao");
-        pw.close();
+        
+        //Se a lista de erros semanticos estiver vazia, o gerador de código é chamado
+        if(LASemanticoUtils.errosSemanticos.isEmpty()){
+            LAGeradorC gerador = new LAGeradorC();
+            gerador.visitPrograma(arvore);
+            pw.print(gerador.saida.toString());
+            pw.close();
+        } else {
+            LASemanticoUtils.errosSemanticos.forEach((s) -> pw.println(s));
+            pw.println("Fim da compilacao");
+            pw.close();
+        }
     }
 }

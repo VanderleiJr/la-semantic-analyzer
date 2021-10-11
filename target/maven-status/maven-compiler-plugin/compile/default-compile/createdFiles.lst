@@ -1,5 +1,6 @@
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Fator_logicoContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\Escopos.class
+br\ufscar\dc\compiladores\la\semantic\analyzer\LAGeradorC.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Op_relacionalContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$TermoContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$IdentificadorContext.class
@@ -28,6 +29,7 @@ br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Decl_local_globalContext
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$CorpoContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$CmdLeiaContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Declaracao_localContext.class
+br\ufscar\dc\compiladores\la\semantic\analyzer\LAGeradorC$1.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Op_logico_1Context.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Parcela_nao_unarioContext.class
 br\ufscar\dc\compiladores\la\semantic\analyzer\LAParser$Item_selecaoContext.class

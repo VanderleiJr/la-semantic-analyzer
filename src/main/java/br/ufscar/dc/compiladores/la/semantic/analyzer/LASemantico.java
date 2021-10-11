@@ -74,12 +74,8 @@ public class LASemantico extends LABaseVisitor<Void> {
         String nomeVar;
         if (ident.dimensao().exp_aritmetica().size() > 0) {
             nomeVar = ident.IDENT(0).getText();
-            for (LAParser.Exp_aritmeticaContext expr : ident.dimensao().exp_aritmetica()) {
-                System.out.println(ident.getText() + " tem dimensao: " + ident.IDENT(0).getText() + ", expr: " + expr.getText());
-            }
         } else {
             nomeVar = ident.getText();
-            System.out.println(ident.getText() + " não tem dimensao");
         }
         return nomeVar;
     }
